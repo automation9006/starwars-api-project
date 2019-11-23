@@ -1,0 +1,9 @@
+ cucumber-html-reports
+.idea
+.gradle
+build
+*.xml
+.iml
+.metadata/
+RemoteSystemsTempFiles/
+node_modules

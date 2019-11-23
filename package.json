@@ -1,0 +1,26 @@
+{
+  "name": "starwars-api-project",
+  "version": "1.0.0",
+  "description": "Task:",
+  "main": "index.js",
+  "scripts": {
+    "test": " echo \"Error: no test specified\" && exit 1",
+    "testcafe": "node --max-http-header-size=120000 ./node_modules/testcafe/bin/testcafe.js --page-load-timeout 10000 --hostname 127.0.0.1 --ports 8091,8092 --color -u -e -r spec,html:./reports/reports.html",
+    "mocha": "mocha"
+  },
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "babel-core": "^6.26.3",
+    "babel-register": "^6.26.0",
+    "chai": "^4.2.0",
+    "colors": "^1.4.0",
+    "date-and-time": "^0.11.0",
+    "mocha": "^6.2.2",
+    "request": "^2.88.0",
+    "standard": "^14.3.1",
+    "testcafe": "^1.7.0",
+    "testcafe-react-selectors": "^3.3.0",
+    "testcafe-reporter-html": "^1.4.4"
+  }
+}
